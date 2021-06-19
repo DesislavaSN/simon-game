@@ -11,6 +11,14 @@ $(document).keydown(function() {
   }
 })
 
+$("button").click(function(){
+  // console.log(event);
+  if (!gameStarted){
+    nextSequence();
+    gameStarted = true;
+  }
+})
+
 $(".btn").click(function(event) {
   // var userChosenColour = event.target.id;
   var userChosenColour = $(this).attr("id");
