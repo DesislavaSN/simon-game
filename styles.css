@@ -4,6 +4,8 @@ body {
   line-height: 1.6;
 }
 
+button {cursor:pointer};
+
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
